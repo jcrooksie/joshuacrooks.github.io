@@ -3,96 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Joshua Crooks</title>
+    <title>Joshua Crooks Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
-
 <body>
-  <main>
-    <!--Landing Area -->
-    <div id="Landing">
-        <div id="landing-text">
-          <div id="landing-text-inner">
-            <h1>Joshua Crooks</h1>
-            <h2>Landscape & Nature Photography</h2>
-            <a href="#images" class="btn" id="view-work">
-                View Portfolio
-               </a>
-               </div>
-          </div> 
 
+    <!--Header-->
+    <header id="header" class="vh-100 flex">
+        <div class="container">
+            <div class="header-content">
+                <h1>Welcome</h1>
+                <h3>Joshua Crooks</h3>
+
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.facebook.com/?form=MT00M3" class="flex">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.threads.net/@jcrooksphoto?hl=en" class="flex">
+                            <i class="fab fa-threads"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/joshuacrooksie/" class="flex">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div id="images">
-          <div class="photo-item">
-            <div id="header">
-                <h2>Here's some of my work!</h2>
-            </div>
-            <div class="gallery">
-              <div class="gallery-item">
-            <img src="Img/IMG_1116.jpg" alt="A Lighthouse">
-            </div>
-            <div class="caption">
-              <h3>Lonely Lighthouse</h3>
-              <p>Peggy's Cove, Nova Scotia - Canada</p>
-            </div>
+    </header>
+    <!--End of Header-->
 
-            <div class="gallery-item">
-            <img src="Img/Deer.jpg" alt="Close up photo of a deer">
+    <!--Main Content-->
+    <main>
+        <section id="about" class="about ph">
+            <div class="container">
+                <div class="about-content grid">
+                   <div class="about-left">
+                    <img src="images/Me.jpg" alt="A portarit of myself">
+                   </div>
+                   <div class="about-right">
+                    <div class="title">
+                        <h2>About me</h2>
+                    </div>
+                    <p class= "lead">I'm Josh, a nature photographer based in Nova Scotia, Canada.
+                        Since 2017, I have been hiking and capturing the beautiful views of nature throuhgout 
+                        my home province of Nova Scotia, which can involve the awesome landscapes and famous landmarks Nova Scotia
+                        has to offer, or the rare and sacred wildife that can be found here in the maritimes. 
+                    </p>
+                    <p class="lead">You can check ouy my work and experiences below.
+                        Photography for me is a passion more then a profession.
+                    </p>
+                    <a href="#work" class="btn-down">
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                   </div> 
+                </div>
             </div>
-            <div class="caption">
-              <h3>Side Eye Deer</h3>
-              <p>Lac La Biche, Alberta - Canada</p>
+        </section>
+                
+        <section id="work" class="vh-100 flex">
+            <div class="container">
+                <div class="work-content">
+                    <div class="title">
+                        <h2>What type of work do you expect to see?</h2>
+                    </div>
+                    <ul class="work-top grid">
+                        <li class="lead"><i class="fas fa-dot-circle"></i> I focus mainly on
+                            landscape and wildlife. Doing photography as a hobby doesn't always
+                            let me travel to famous and exotic places often so, I take photos of 
+                            everyday things when living in Nova Scotia, and try and make awesome photos out of 
+                            them.
+                        </li>
+                    </ul>
+                    <div class="work-bottom grid">
+                        <div>
+                            <span class="icon"><img src="images/Niagrara.jpg"
+                                alt="Picture of Niagara">
+                            </span>
+                            <h3>Landscape</h3>
+                        </div>
+                        <div>
+                            <span class="icon"><img src="images/Deer.jpg" alt="Deer photo">
+                            </span>
+                            <h3>Wildlife</h3>
+                        </div>
+                    </div>
+                    <a href="#portfolio" class="btn-down
+                    btn-down-white">
+                        <i class="fas fa-chevron-down"></i></a>
+                </div>
             </div>
+        </section>
 
-            <div class="gallery-item">
-            <img src="Img/CapeSplit.jpg" alt="A small rocky island in the middle of the water">
-            </div>
-            <div class="caption">
-              <h3>Frozen Cape Split</h3>
-              <p>Scots Bay, Nova Scotia - Canada</p>
-            </div>
+        <section id="portfolio" class="vh-100 ph">
+            <div class="container">
+                <div class="portarit-content">
+                    <div class="title">
+                        <h2>My Latest Work!</h2>
+                        <a href="#portfolio" class="btn-down">
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </div>
 
-            <div class="gallery-item">
-            <img src="Img/Junco.jpg" alt="A bird on a stick">
+                    <div class="portfolio-grid grid">
+                        <div><img src="images/Junco.jpg" alt="Bird photo"></div>
+                        <div><img src="images/Cabot.jpg" alt="Road through mountains"></div>
+                        <div><img src="images/Cormorant.jpg" alt="Sea bird"></div>
+                        <div><img src="images/Willet.jpg" alt="small sea bird"></div>
+                        <div><img src="images/Eagle.jpg" alt="A huge bird of prey"></div>
+                        <div><img src="images/BlueHour.jpg" alt="Blue hour photo at the Beach"></div>
+                        <div><img src="images/GreenCove.jpg" alt="Sunset on the ocean"></div>
+                        <div><img src="images/Fox.jpg" alt="A fox in the snow"></div>
+                        <div><img src="images/Burnt.jpg" alt="Sunset on the Bay of Fundy"></div>
+                        <div><img src="images/Cape1.jpg" alt="Road and mountains"></div>
+                        <div><img src="images/Forest.jpg" alt="Path through the woods"></div>
+                        <div><img src="images/Lodge.jpg" alt="Keltic lodge of Cape Breton"></div>
+                        <div><img src="images/NorthernLights.jpg" alt="Northern Lights in the valley"></div>
+                        <div><img src="images/Skyline.jpg" alt="Famous trail in Nova Scotia with a Sunset"></div>
+                        <div><img src="images/Squirrel.jpg" alt="Posing Squirrel"></div>
+                        <div><img src="images/Magpie.jpg" alt="A bird found in Western Canada"></div>
+                        <div><img src="images/WhitePoint.jpg" alt="Noerthern Cape Breton"></div>
+                        <div><img src="images/Fox2.jpg" alt="Fox sittig on its don"></div>
+                        <div><img src="images/Cliffs.jpg" alt="Stormy cliffs by the water"></div>
+                    </div>
+                </div>
             </div>
-            <div class="caption">
-              <h3>Posing Junco</h3>
-              <p>Dartmouth, Nova Scotia</p>
-            </div>
+        </section>
 
-            <div class="gallery-item">
-            <img src="Img/Niagrara.jpg" alt="Waterfall from it's side view">
-            </div>
-            <div class="caption">
-            </div>
-            <div class="caption">
-              <h3>Jurrasic Niagara</h3>
-              <p>Niagara Falls, USA</p>
-            </div>
+        <section id="contact" class="ph">
+            <div class="container">
+                <div class="contact-content flex">
+                    <div class="contact-left">
+                        <div class="title">
+                            <h2>Connect With Me!</h2>
+                        </div>
+                        <p class="lead"><i class="fas fa-phone-alt"></i> (902-227-6610) </p>
+                        <p class="lead"><i class="fas fa-envelope"></i> joshucrooks09@gmail.com</p>
+                        <form action="lead">
+                            <input type="text" class="form-control" placeholder="Your name here...">
+                            <input type="email" class="form-control" placeholder="Your email here...">
+                            <input type="submit" class="btn-submit btn" value="Submit">
+                        </form>
+                    </div>
 
-            
-            <div class="caption">
-              <p> <strong>About Me!</strong> </p>
-              <div class="rounded-image">
-                <img src="Img/Me.jpg" alt="A portrait of me">
-              </div>
-              <h3>Who is Joshua?</h3>
-              <p>I'm Joshua, a freelance landscape and nature photographer based in Nova Scotia, Canada. 
-                Ever since I purchased my first camera in 2021, I have growned into this passion for visual
-                storytelling and enjoying the beautiful outdoors and being surrounded by wildlife.
-                 I spend my weekends looking and searching for hiking trails and set out on road trips which hopefully
-                 lead to adventures.
-              </p>
+                    <div class="contact-right">
+                        <img src="images/Beach.jpg"
+                        alt="contact image">
+                    </div>
+                </div>
             </div>
-    </div>
-  </main>
+        </section>
 
-  <footer>
-    <h3>Get In Touch!</h3>
-    <p>Email or call me to get connected</p>
-    <p>Email: <strong>joshuacrooks09@gmail.com</strong></p>
-    <p>Phone: <strong>(902)-266-0973</strong></p>
-  </footer>
+        <section id="insta" class="ph">
+            <div class="container">
+                <div class="insta-content">
+                    <div class="title">
+                        <h2>Instagram</h2>
+                        <a href="#insta" class="btn-down btn-down-white">
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class="insta-grid grid">
+                        <div><img src="images/MeatCove.jpg" alt="The northest point of Nova Scotia"></div>
+                        <div><img src="images/Niagara2.jpg" alt="Niagara falls in the USA"></div>
+                        <div><img src="images/Lights2.jpg" alt="Northern Lights in Cole Harbour"></div>
+                        <div><img src="images/Deer2.jpg" alt="A deer found in western Canada"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="ph">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>JOSHUA CROOKS</h3>
+                    <div><img src="images/Me.jpg" alt="A portrait of myself"></div>
+                </div>
+
+                <div>
+                    <h3>Links</h3>
+                    <ul class="flex">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a href="#insta">Instagram</a></li>
+                        
+                     </ul>
+         
+         </div>           </div>
+        </div>
+
+    
+    </footer>
+
 </body>
-
 </html>
